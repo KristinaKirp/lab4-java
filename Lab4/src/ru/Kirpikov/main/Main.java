@@ -63,14 +63,7 @@ public class Main {
 
                         int result = s1.compare(s2);
 
-                        System.out.println();
-                        if (result > 0) {
-                            System.out.println(result);
-                        } else if (result < 0) {
-                            System.out.println(result);
-                        } else {
-                            System.out.println(result);
-                        }
+                        System.out.println(result);
                     }
                     catch (RuntimeException ex) {
                         System.out.println("Ошибка: " + ex.getMessage());
