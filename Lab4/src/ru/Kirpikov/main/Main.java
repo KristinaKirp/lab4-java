@@ -150,8 +150,12 @@ public class Main {
                                     list.add(new ArrayList<>());
                                     list.add(new ArrayList<>());
                                 }
-                                if (n >= 0) list.get(0).add(n);
-                                else list.get(1).add(n);
+                                if (n >= 0) {
+                                    list.get(0).add(n);
+                                }
+                                else {
+                                    list.get(1).add(n);
+                                }
                             }
                     );
                     System.out.println("Положительные и отрицательные: " + separated);
